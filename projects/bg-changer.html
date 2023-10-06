@@ -1,0 +1,83 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript-project</title>
+    <style>
+    
+
+.button{
+            border: none;
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            margin: 5px;
+            cursor: pointer;
+            background-color: rgb(71, 71, 71);
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body style="background-color: hotpink;">
+    
+    <h1>color changing background</h1>
+    <button class="button" id="gray">gray</button>
+    <button class="button" id="white">white</button>
+    <button class="button" id="dodgerblue">blue</button>
+    <button class="button" id="yellow">yellow</button>
+    <button class="button" id="hotpink">hotpink</button>
+    <button class="button" id="purple">purple</button>
+    <button class="button" id="orange">orange</button>
+    <button class="button" id="yellowgreen">yellowgreen</button>
+    <button class="button" id="indigo">indigo</button>
+    <button class="button" id="brown">brown</button>
+    <button class="button" id="green">green</button>
+    <button class="button" id="royalblue">royalblue</button>
+
+
+<script>
+    const btn=document.querySelectorAll('.button');
+   const body=document.querySelector('body');
+
+   btn.forEach(function(btn){
+    btn.addEventListener("click", function(e){
+        if(e.target.id === 'gray'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'white'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'dodgerblue'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'yellow'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'hotpink'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'purple'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'orange'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'yellowgreen'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'indigo'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'brown'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'green'){
+            body.style.backgroundColor=e.target.id;
+        }
+        if(e.target.id === 'royalblue'){
+            body.style.backgroundColor=e.target.id;
+        }
+    });
+   })
+</script>
+</body></html>
