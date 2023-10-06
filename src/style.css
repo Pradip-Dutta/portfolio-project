@@ -28,6 +28,10 @@ body{
     color: var(--one);
 }
 
+.btn:hover{
+    background-color: var(--three);
+}
+
 /* sidenav */
 
 .sidebar{
@@ -181,18 +185,18 @@ main{
 
   .html {
     width: 80%;
-    background-color: #04AA6D;
+    background-color: #e6e7e7;
     border-radius: 20px;
 }
 .css {
     width: 65%;
-    background-color: #2196F3;
+    background-color: #2da0fe;
     border-radius: 20px;
 }
 
 .js{
     width: 65%;
-    background-color: #e4a159;
+    background-color: #f9a851;
     border-radius: 20px;
 }
 
